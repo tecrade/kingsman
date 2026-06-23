@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Playfair Display', ui-serif, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-gold-50: #fdf8ec;
+  --color-gold-100: #f9edcc;
+  --color-gold-200: #f1d890;
+  --color-gold-300: #e8bf54;
+  --color-gold-400: #dda830;
+  --color-gold-500: #c8901a;
+  --color-gold-600: #a87214;
+  --color-gold-700: #875712;
+  --color-gold-800: #6d4415;
+  --color-gold-900: #5a3814;
+
+  --color-obsidian-50: #f4f4f5;
+  --color-obsidian-100: #e8e8ea;
+  --color-obsidian-200: #d1d1d5;
+  --color-obsidian-300: #a9a9b0;
+  --color-obsidian-400: #7a7a84;
+  --color-obsidian-500: #5c5c66;
+  --color-obsidian-600: #4a4a54;
+  --color-obsidian-700: #3a3a42;
+  --color-obsidian-800: #252529;
+  --color-obsidian-900: #141416;
+  --color-obsidian-950: #0a0a0c;
+
+  --color-ivory: #f9f6f0;
+  --color-cream: #f2ece0;
+  --color-parchment: #e8dcc8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0a0a0c;
+  color: #f9f6f0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #141416;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8901a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dda830;
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+/* Fade in up */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+/* Shimmer for skeleton */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.animate-shimmer {
+  background: linear-gradient(90deg, #1a1a1e 25%, #252529 50%, #1a1a1e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Slide-in drawer */
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+.animate-slide-in-right {
+  animation: slideInRight 0.35s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+.animate-slide-in-left {
+  animation: slideInLeft 0.35s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+/* Pulse glow for gold accents */
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(200, 144, 26, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(200, 144, 26, 0); }
+}
+.animate-pulse-gold {
+  animation: pulseGold 2s infinite;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(10, 10, 12, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(200, 144, 26, 0.12);
+}
+
+.glass-light {
+  background: rgba(20, 20, 22, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Drop cap */
+.drop-cap::first-letter {
+  font-family: var(--font-serif);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 0.8;
+  float: left;
+  margin-right: 0.12em;
+  color: #c8901a;
+}
+
+/* Product card image swap */
+.product-card .img-back {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.product-card:hover .img-back {
+  opacity: 1;
+}
+.product-card .img-front {
+  transition: opacity 0.45s ease;
+}
+.product-card:hover .img-front {
+  opacity: 0;
+}
+
+/* Gold underline on hover */
+.gold-underline {
+  position: relative;
+}
+.gold-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #c8901a;
+  transition: width 0.3s ease;
+}
+.gold-underline:hover::after {
+  width: 100%;
+}
+
+/* Zoom on hover for images */
+.zoom-img {
+  overflow: hidden;
+}
+.zoom-img img {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.zoom-img:hover img {
+  transform: scale(1.06);
+}

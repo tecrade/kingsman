@@ -20,18 +20,24 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 // Scroll-to-top on route change
+import contentJson from "../webedit/content.json";
+const content = contentJson;
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const {
+    pathname
+  } = useLocation();
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }, [pathname]);
   return null;
 }
 
 // Inner app — needs router context
 function AppInner() {
-  return (
-    <div className="flex flex-col min-h-screen bg-[#0a0a0c]">
+  return <div className="flex flex-col min-h-screen bg-[#0a0a0c]">
       <ScrollToTop />
 
       {/* Persistent global overlays */}
@@ -50,16 +56,12 @@ function AppInner() {
       </Routes>
 
       <Footer />
-    </div>
-  );
+    </div>;
 }
-
 export default function App() {
-  return (
-    <BrowserRouter>
+  return <BrowserRouter>
       <AppProvider>
         <AppInner />
       </AppProvider>
-    </BrowserRouter>
-  );
+    </BrowserRouter>;
 }

@@ -1,9 +1,10 @@
+import contentJson from "../../../webedit/content.json";
+const content = contentJson;
 // ============================================================
 // src/components/ui/SkeletonCard.jsx — Loading skeleton
 // ============================================================
 export default function SkeletonCard() {
-  return (
-    <div className="flex flex-col bg-[#141416] rounded-xl overflow-hidden border border-white/6">
+  return <div className="flex flex-col bg-[#141416] rounded-xl overflow-hidden border border-white/6">
       {/* Image skeleton */}
       <div className="aspect-[3/4] animate-shimmer" />
       {/* Content skeleton */}
@@ -15,12 +16,11 @@ export default function SkeletonCard() {
         </div>
         <div className="h-2 w-24 rounded animate-shimmer" />
         <div className="flex gap-1 pt-1">
-          {Array.from({ length: 4 }).map((_, i) => (
-            <div key={i} className="w-4 h-4 rounded-full animate-shimmer" />
-          ))}
+          {Array.from({
+          length: 4
+        }).map((_, i) => <div key={i} className="w-4 h-4 rounded-full animate-shimmer" />)}
         </div>
         <div className="h-5 w-20 rounded animate-shimmer pt-2" />
       </div>
-    </div>
-  );
+    </div>;
 }

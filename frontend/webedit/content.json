@@ -1,0 +1,1357 @@
+{
+  "webedit-24": {
+    "type": "text",
+    "tagName": "p",
+    "value": "✦ Est. London, 1849"
+  },
+  "webedit-25": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "Where Tradition"
+  },
+  "webedit-27": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Meets Mastery"
+  },
+  "webedit-29": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Founded in a modest workshop on Savile Row in 1849 by master tailor Edmund Kingsman, \n                our house has dressed statesmen, royalty, and explorers for over 175 years."
+  },
+  "webedit-30": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Every technique is handed down through apprenticeship. Every fabric is selected by \n                hand. Every garment leaves our atelier only when it meets the exacting standards \n                that Edmund himself would recognise."
+  },
+  "heritage-cta": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "Discover Our Story"
+  },
+  "webedit-34": {
+    "type": "img",
+    "tagName": "img",
+    "src": "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?w=900&q=85",
+    "alt": "Kingsman artisan at work in the Savile Row atelier"
+  },
+  "webedit-36": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Master Cutters"
+  },
+  "webedit-37": {
+    "type": "text",
+    "tagName": "p",
+    "value": "12"
+  },
+  "webedit-38": {
+    "type": "text",
+    "tagName": "p",
+    "value": "On Savile Row today"
+  },
+  "webedit-43": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "div",
+    "value": [
+      {
+        "value": "1849",
+        "label": "Year Established"
+      },
+      {
+        "value": "175+",
+        "label": "Years of Heritage"
+      },
+      {
+        "value": "80+",
+        "label": "Hours Per Garment"
+      },
+      {
+        "value": "3",
+        "label": "Savile Row Ateliers"
+      }
+    ],
+    "JSXExpression": "STATS"
+  },
+  "hero-watch": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Watch Film"
+  },
+  "webedit-72": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "div",
+    "value": [
+      {
+        "id": "hero-1",
+        "headline": "The Art of\nBritish Tailoring",
+        "subheadline": "Autumn / Winter 2025 Collection",
+        "body": "Over 175 years of craft, tradition, and uncompromising excellence. Each garment, a conversation between artisan and cloth.",
+        "cta": "Explore the Collection",
+        "ctaHref": "/shop",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=85",
+        "accent": "Suits & Tailoring"
+      },
+      {
+        "id": "hero-2",
+        "headline": "Woven from\nScottish Heritage",
+        "subheadline": "The Mayfair Overcoat",
+        "body": "Harris Tweed, hand-woven in the Outer Hebrides. A coat that carries the weather, the landscape, and the legacy of Scotland.",
+        "cta": "Discover Outerwear",
+        "ctaHref": "/shop?category=Outerwear",
+        "image": "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?w=1600&q=85",
+        "accent": "Outerwear"
+      },
+      {
+        "id": "hero-3",
+        "headline": "Yours Alone.\nBespoke.",
+        "subheadline": "The Balmoral Consultation",
+        "body": "Not every man is built for off-the-peg. Book your consultation at our Savile Row atelier and experience what true luxury means.",
+        "cta": "Book a Consultation",
+        "ctaHref": "/shop?category=Bespoke",
+        "image": "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=1600&q=85",
+        "accent": "Bespoke"
+      }
+    ],
+    "JSXExpression": "HERO_SLIDES"
+  },
+  "webedit-76": {
+    "type": "text",
+    "tagName": "p",
+    "value": "✦ Autumn / Winter 2025"
+  },
+  "webedit-77": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "The Kingsman"
+  },
+  "webedit-79": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Lookbook"
+  },
+  "webedit-81": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Autumn in London arrives with a particular quality of light — amber and bronze — \n              that only the finest wools and tweeds can truly answer. This season, Kingsman \n              presents a collection that speaks to the rituals of the discerning gentleman."
+  },
+  "webedit-92": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "Shop the Look"
+  },
+  "webedit-102": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "Shop the Look"
+  },
+  "webedit-107": {
+    "type": "text",
+    "tagName": "p",
+    "value": "✦ Featured Selection"
+  },
+  "webedit-108": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "The Kingsman Edit"
+  },
+  "carousel-view-all": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "View Full Collection"
+  },
+  "webedit-121": {
+    "type": "text",
+    "tagName": "span",
+    "value": "KINGSMAN"
+  },
+  "webedit-124": {
+    "type": "text",
+    "tagName": "p",
+    "value": "✦ Client Testimonials"
+  },
+  "webedit-125": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "Voices of Distinction"
+  },
+  "webedit-130": {
+    "type": "text",
+    "tagName": "span",
+    "value": "★"
+  },
+  "webedit-131": {
+    "type": "text",
+    "tagName": "blockquote",
+    "value": "\""
+  },
+  "webedit-132": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Wearing:"
+  },
+  "webedit-151": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Complimentary Shipping on Orders Over £500"
+  },
+  "webedit-152": {
+    "type": "text",
+    "tagName": "span",
+    "value": "✦"
+  },
+  "webedit-153": {
+    "type": "text",
+    "tagName": "span",
+    "value": "New Autumn / Winter Collection Now Available"
+  },
+  "webedit-154": {
+    "type": "text",
+    "tagName": "span",
+    "value": "✦"
+  },
+  "webedit-155": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Bespoke Consultations — Book at Our Savile Row Atelier"
+  },
+  "webedit-156": {
+    "type": "text",
+    "tagName": "span",
+    "value": "✦"
+  },
+  "webedit-162": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "Your Selection"
+  },
+  "webedit-169": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Your cart is empty"
+  },
+  "webedit-170": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Begin your selection below"
+  },
+  "webedit-171": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Explore Collections"
+  },
+  "webedit-180": {
+    "type": "text",
+    "tagName": "p",
+    "value": "·"
+  },
+  "webedit-195": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Subtotal"
+  },
+  "webedit-198": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Luxury Surcharge"
+  },
+  "webedit-201": {
+    "type": "text",
+    "tagName": "span",
+    "value": "VAT (20%)"
+  },
+  "webedit-204": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Total"
+  },
+  "cart-checkout": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Proceed to Checkout"
+  },
+  "webedit-207": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Secure checkout · Free returns · Fully insured"
+  },
+  "webedit-221": {
+    "type": "text",
+    "tagName": "h3",
+    "value": "Thank you, Sir."
+  },
+  "webedit-224": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Reference Number"
+  },
+  "webedit-226": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Close Atelier"
+  },
+  "webedit-230": {
+    "type": "text",
+    "tagName": "div",
+    "value": "Your transaction is encrypted. Items will be packaged in signature Kingsman wardrobe cartons with custom wooden hangers."
+  },
+  "webedit-231": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Secured Luxury Dispatch."
+  },
+  "webedit-234": {
+    "type": "text",
+    "tagName": "h4",
+    "value": "1. Contact Information"
+  },
+  "webedit-236": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Full Name"
+  },
+  "webedit-240": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Email Address"
+  },
+  "webedit-244": {
+    "type": "text",
+    "tagName": "h4",
+    "value": "2. Atelier Delivery Address"
+  },
+  "webedit-246": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Delivery Address"
+  },
+  "webedit-251": {
+    "type": "text",
+    "tagName": "label",
+    "value": "City"
+  },
+  "webedit-255": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Postcode"
+  },
+  "webedit-258": {
+    "type": "text",
+    "tagName": "h4",
+    "value": "2. Consultation Details"
+  },
+  "webedit-260": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Atelier Location"
+  },
+  "webedit-263": {
+    "type": "text",
+    "tagName": "option",
+    "value": "London — Savile Row"
+  },
+  "webedit-264": {
+    "type": "text",
+    "tagName": "option",
+    "value": "New York — Madison Avenue"
+  },
+  "webedit-265": {
+    "type": "text",
+    "tagName": "option",
+    "value": "Paris — Rue Saint-Honoré"
+  },
+  "webedit-268": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Date"
+  },
+  "webedit-273": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Time Slot"
+  },
+  "webedit-275": {
+    "type": "text",
+    "tagName": "option",
+    "value": "Morning (09:00 - 12:00)"
+  },
+  "webedit-276": {
+    "type": "text",
+    "tagName": "option",
+    "value": "Afternoon (13:00 - 17:00)"
+  },
+  "webedit-277": {
+    "type": "text",
+    "tagName": "option",
+    "value": "Evening Slot (17:30 - 19:30)"
+  },
+  "webedit-279": {
+    "type": "text",
+    "tagName": "h4",
+    "value": "3. Secure Card Payment"
+  },
+  "webedit-283": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Card Number"
+  },
+  "webedit-288": {
+    "type": "text",
+    "tagName": "label",
+    "value": "Expiry (MM/YY)"
+  },
+  "webedit-292": {
+    "type": "text",
+    "tagName": "label",
+    "value": "CVC"
+  },
+  "webedit-296": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Note: General bespoke garments require custom drafting and hand-sewing. Fitting consultations are hosted private sessions with our master tailors. There is no charge for the consultation. Pricing is determined post-fitting based on selected fabrics and customizations."
+  },
+  "webedit-299": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Total Due"
+  },
+  "webedit-302": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Consultation Cost"
+  },
+  "webedit-303": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Complimentary"
+  },
+  "webedit-313": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Kingsman"
+  },
+  "webedit-314": {
+    "type": "text",
+    "tagName": "p",
+    "value": "British luxury heritage since 1849. Bespoke tailoring and fine fabrics crafted by the finest artisans on Savile Row, London."
+  },
+  "webedit-325": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Kingsman Ltd. All rights reserved. Registered in England & Wales No. 00123456."
+  },
+  "webedit-332": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Kingsman"
+  },
+  "webedit-340": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Est. 1849 · London, England"
+  },
+  "webedit-341": {
+    "type": "text",
+    "tagName": "p",
+    "value": "+44 (0)20 7123 4567"
+  },
+  "webedit-342": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "ul",
+    "value": [
+      {
+        "label": "New Arrivals",
+        "href": "/shop?tag=New+Season"
+      },
+      {
+        "label": "Suits & Tailoring",
+        "href": "/shop?category=Suits"
+      },
+      {
+        "label": "Outerwear",
+        "href": "/shop?category=Outerwear"
+      },
+      {
+        "label": "Shirts",
+        "href": "/shop?category=Shirts"
+      },
+      {
+        "label": "Accessories",
+        "href": "/shop?category=Accessories"
+      },
+      {
+        "label": "Bespoke",
+        "href": "/shop?category=Bespoke"
+      },
+      {
+        "label": "Lookbook",
+        "href": "/#lookbook"
+      },
+      {
+        "label": "Heritage",
+        "href": "/#heritage"
+      }
+    ],
+    "JSXExpression": "MOBILE_LINKS"
+  },
+  "webedit-348": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Kingsman"
+  },
+  "webedit-365": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "nav",
+    "value": [
+      {
+        "label": "Collections",
+        "href": "/shop"
+      },
+      {
+        "label": "Bespoke",
+        "href": "/shop?category=Bespoke"
+      },
+      {
+        "label": "Lookbook",
+        "href": "/#lookbook"
+      },
+      {
+        "label": "Heritage",
+        "href": "/#heritage"
+      }
+    ],
+    "JSXExpression": "NAV_LINKS"
+  },
+  "webedit-372": {
+    "type": "text",
+    "tagName": "span",
+    "value": "New"
+  },
+  "webedit-373": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Bespoke Only"
+  },
+  "webedit-374": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Sale"
+  },
+  "webedit-378": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Quick Add"
+  },
+  "webedit-385": {
+    "type": "text",
+    "tagName": "span",
+    "value": "·"
+  },
+  "webedit-391": {
+    "type": "text",
+    "tagName": "span",
+    "value": "★"
+  },
+  "webedit-392": {
+    "type": "text",
+    "tagName": "span",
+    "value": ")"
+  },
+  "webedit-395": {
+    "type": "text",
+    "tagName": "span",
+    "value": "+"
+  },
+  "webedit-exportvar-411": {
+    "type": "ExportVariable",
+    "file": "src\\data\\products.js",
+    "identifier": "CATEGORIES",
+    "value": [
+      "All",
+      "Suits",
+      "Shirts",
+      "Outerwear",
+      "Accessories",
+      "Bespoke"
+    ]
+  },
+  "webedit-exportvar-412": {
+    "type": "ExportVariable",
+    "file": "src\\data\\products.js",
+    "identifier": "TAGS",
+    "value": [
+      "New Season",
+      "Bestseller",
+      "Bespoke Only",
+      "Limited",
+      "Archive"
+    ]
+  },
+  "webedit-exportvar-413": {
+    "type": "ExportVariable",
+    "file": "src\\data\\products.js",
+    "identifier": "products",
+    "value": [
+      {
+        "id": "ks-001",
+        "name": "The Windsor Double-Breasted Suit",
+        "shortName": "Windsor Suit",
+        "category": "Suits",
+        "tags": [
+          "Bestseller",
+          "New Season"
+        ],
+        "price": 3850,
+        "comparePrice": 4200,
+        "currency": "GBP",
+        "sku": "KS-SU-001-NV",
+        "rating": 4.9,
+        "reviewCount": 142,
+        "isBespokeOnly": false,
+        "isNew": true,
+        "inStock": true,
+        "description": "The Windsor Double-Breasted Suit represents the pinnacle of British tailoring tradition. \nCrafted from a 14oz Super 150s wool sourced exclusively from the Loro Piana mills of Biella, \neach suit undergoes over 80 hours of hand-finishing at our Savile Row atelier.",
+        "longDescription": "Every stitch tells a story of British heritage. The Windsor features a structured \nchest canvas hand-padded over three days, peak lapels cut at a precise 45-degree angle, \nand a silhouette that nods to the golden age of Mayfair elegance while meeting the demands \nof the modern statesman. The lining — a bespoke Kingsman house print in midnight navy and gold — \nis visible only to those who know to look.",
+        "images": {
+          "front": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+          "back": "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=600&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800&q=80",
+            "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?w=800&q=80"
+          ]
+        },
+        "availableSizes": [
+          "36R",
+          "38R",
+          "38L",
+          "40R",
+          "40L",
+          "42R",
+          "42L",
+          "44R",
+          "44L",
+          "46R"
+        ],
+        "colorVariants": [
+          {
+            "name": "Midnight Navy",
+            "hex": "#1a1f3c",
+            "available": true
+          },
+          {
+            "name": "Charcoal Melange",
+            "hex": "#3d3d3d",
+            "available": true
+          },
+          {
+            "name": "Slate Grey",
+            "hex": "#6b7280",
+            "available": false
+          },
+          {
+            "name": "Midnight Black",
+            "hex": "#0f0f0f",
+            "available": true
+          }
+        ],
+        "fabricComposition": {
+          "Outer Shell": "100% Super 150s Merino Wool",
+          "Lining": "95% Cupro, 5% Silk",
+          "Canvas": "Hand-padded horsehair and cotton",
+          "Origin": "Biella, Italy (woven) — London, UK (tailored)",
+          "Weight": "14oz per linear yard"
+        },
+        "careInstructions": [
+          "Dry clean only",
+          "Steam press at medium heat",
+          "Store on shaped hanger"
+        ],
+        "deliveryInfo": {
+          "standard": "5–7 working days",
+          "express": "2–3 working days",
+          "bespoke": "8–12 weeks"
+        },
+        "luxurySurchargeRate": 0.12
+      },
+      {
+        "id": "ks-002",
+        "name": "The Mayfair Herringbone Overcoat",
+        "shortName": "Mayfair Coat",
+        "category": "Outerwear",
+        "tags": [
+          "New Season",
+          "Limited"
+        ],
+        "price": 2650,
+        "comparePrice": null,
+        "currency": "GBP",
+        "sku": "KS-OC-002-CA",
+        "rating": 4.8,
+        "reviewCount": 87,
+        "isBespokeOnly": false,
+        "isNew": true,
+        "inStock": true,
+        "description": "A masterwork in British outerwear. The Mayfair is woven from a dense herringbone tweed \nsourced from Harris, Scotland — each bolt hand-woven by a single weaver over the course of a week.",
+        "longDescription": "The Mayfair Herringbone Overcoat embodies the raw beauty of the Scottish Highlands \nchannelled through Savile Row refinement. Its silhouette — a precise single-breasted cut with a \nhalf-belt at the back — speaks to military heritage. The signature brass Kingsman crest buttons are \nindividually cast and hand-polished in Birmingham.",
+        "images": {
+          "front": "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?w=600&q=80",
+          "back": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?w=800&q=80",
+            "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80"
+          ]
+        },
+        "availableSizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "colorVariants": [
+          {
+            "name": "Natural Camel",
+            "hex": "#c19a6b",
+            "available": true
+          },
+          {
+            "name": "Houndstooth Black",
+            "hex": "#2d2d2d",
+            "available": true
+          },
+          {
+            "name": "Hunting Green",
+            "hex": "#2d4a2d",
+            "available": true
+          }
+        ],
+        "fabricComposition": {
+          "Outer Shell": "100% Harris Tweed",
+          "Lining": "100% Silk — Kingsman Archive Print",
+          "Origin": "Outer Hebrides, Scotland (woven) — London, UK (tailored)",
+          "Weight": "22oz per linear yard"
+        },
+        "careInstructions": [
+          "Dry clean only",
+          "Brush regularly with a natural bristle brush"
+        ],
+        "deliveryInfo": {
+          "standard": "5–7 working days",
+          "express": "2–3 working days",
+          "bespoke": "10–14 weeks"
+        },
+        "luxurySurchargeRate": 0.12
+      },
+      {
+        "id": "ks-003",
+        "name": "The Balmoral Bespoke Morning Coat",
+        "shortName": "Balmoral Morning Coat",
+        "category": "Suits",
+        "tags": [
+          "Bespoke Only",
+          "Archive"
+        ],
+        "price": 8500,
+        "comparePrice": null,
+        "currency": "GBP",
+        "sku": "KS-BS-003-BK",
+        "rating": 5,
+        "reviewCount": 31,
+        "isBespokeOnly": true,
+        "isNew": false,
+        "inStock": true,
+        "description": "Our most storied garment. The Balmoral Morning Coat is available exclusively through our \nSavile Row bespoke consultation service. A minimum of three fittings is required.",
+        "longDescription": "The Balmoral represents our highest expression of tailoring. Created for those who \nunderstand that true luxury is not worn but inhabited. Each coat requires a minimum of three fittings \nat our Savile Row atelier and over 120 hours of hand-work by our Master Cutter.",
+        "images": {
+          "front": "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80",
+          "back": "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?w=600&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=80"
+          ]
+        },
+        "availableSizes": [
+          "Fully Bespoke — Made to Measure"
+        ],
+        "colorVariants": [
+          {
+            "name": "Jet Black",
+            "hex": "#0a0a0a",
+            "available": true
+          },
+          {
+            "name": "Midnight Navy",
+            "hex": "#1a1f3c",
+            "available": true
+          }
+        ],
+        "fabricComposition": {
+          "Outer Shell": "100% Super 200s Cashmere-Wool Blend",
+          "Lining": "100% Hand-painted Silk",
+          "Buttons": "Hand-carved horn from sustainable sources",
+          "Origin": "Florence, Italy (fabric) — London, UK (tailored)"
+        },
+        "careInstructions": [
+          "Kingsman valet service only",
+          "Return to atelier for seasonal care"
+        ],
+        "deliveryInfo": {
+          "bespoke": "16–20 weeks from final fitting"
+        },
+        "luxurySurchargeRate": 0.15
+      },
+      {
+        "id": "ks-004",
+        "name": "The Knightsbridge Egyptian Cotton Shirt",
+        "shortName": "Knightsbridge Shirt",
+        "category": "Shirts",
+        "tags": [
+          "Bestseller"
+        ],
+        "price": 285,
+        "comparePrice": 320,
+        "currency": "GBP",
+        "sku": "KS-SH-004-WH",
+        "rating": 4.7,
+        "reviewCount": 324,
+        "isBespokeOnly": false,
+        "isNew": false,
+        "inStock": true,
+        "description": "Woven from 200-thread-count Egyptian Giza cotton, the Knightsbridge shirt is our most \nenduring classic. Machine-washable luxury without compromise.",
+        "longDescription": "The Knightsbridge is proof that everyday luxury need not be sacrificed. Constructed \nwith a 7-fold collar and single-needle stitching throughout, this shirt features our signature \nmother-of-pearl buttons and a discrete crown embroidery on the inside left cuff.",
+        "images": {
+          "front": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&q=80",
+          "back": "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=600&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80",
+            "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=800&q=80"
+          ]
+        },
+        "availableSizes": [
+          "14.5\"",
+          "15\"",
+          "15.5\"",
+          "16\"",
+          "16.5\"",
+          "17\"",
+          "17.5\"",
+          "18\""
+        ],
+        "colorVariants": [
+          {
+            "name": "Crisp White",
+            "hex": "#f8f8f8",
+            "available": true
+          },
+          {
+            "name": "Sky Blue",
+            "hex": "#a8c5da",
+            "available": true
+          },
+          {
+            "name": "Pale Pink",
+            "hex": "#f0c8c0",
+            "available": true
+          },
+          {
+            "name": "Lavender Grey",
+            "hex": "#b8b0c8",
+            "available": false
+          }
+        ],
+        "fabricComposition": {
+          "Fabric": "100% Egyptian Giza 45 Cotton",
+          "Thread Count": "200 threads per inch",
+          "Buttons": "Mother-of-pearl, hand-sewn",
+          "Origin": "Egypt (grown) — Italy (woven) — London, UK (made)"
+        },
+        "careInstructions": [
+          "Machine wash at 30°C",
+          "Iron on medium heat",
+          "Do not tumble dry"
+        ],
+        "deliveryInfo": {
+          "standard": "3–5 working days",
+          "express": "1–2 working days"
+        },
+        "luxurySurchargeRate": 0.08
+      },
+      {
+        "id": "ks-005",
+        "name": "The Oxford Cashmere Scarf",
+        "shortName": "Oxford Scarf",
+        "category": "Accessories",
+        "tags": [
+          "New Season",
+          "Bestseller"
+        ],
+        "price": 420,
+        "comparePrice": null,
+        "currency": "GBP",
+        "sku": "KS-AC-005-CR",
+        "rating": 4.9,
+        "reviewCount": 198,
+        "isBespokeOnly": false,
+        "isNew": true,
+        "inStock": true,
+        "description": "Crafted from Grade-A Inner Mongolian cashmere, the Oxford Scarf is an essential \ncompanion to any Kingsman ensemble. Feather-light yet supremely warm.",
+        "longDescription": "The Oxford Cashmere Scarf is woven on vintage shuttled looms in Scotland, \na process that creates a looser, more breathable weave than modern techniques allow.\nAt 30cm wide and 180cm long, it is generously proportioned for both the classic drape and the full wrap.",
+        "images": {
+          "front": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=600&q=80",
+          "back": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=600&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800&q=80"
+          ]
+        },
+        "availableSizes": [
+          "One Size"
+        ],
+        "colorVariants": [
+          {
+            "name": "Ivory Cream",
+            "hex": "#f5f0e8",
+            "available": true
+          },
+          {
+            "name": "Camel",
+            "hex": "#c19a6b",
+            "available": true
+          },
+          {
+            "name": "Navy Stripe",
+            "hex": "#1a2744",
+            "available": true
+          },
+          {
+            "name": "Charcoal",
+            "hex": "#3d3d3d",
+            "available": true
+          },
+          {
+            "name": "Kingsman Red",
+            "hex": "#8b1a1a",
+            "available": false
+          }
+        ],
+        "fabricComposition": {
+          "Material": "100% Grade-A Mongolian Cashmere",
+          "Ply": "2-ply woven",
+          "Dimensions": "30cm × 180cm",
+          "Origin": "Inner Mongolia (fibre) — Scotland (woven)"
+        },
+        "careInstructions": [
+          "Hand wash in cold water",
+          "Dry flat",
+          "Do not wring"
+        ],
+        "deliveryInfo": {
+          "standard": "3–5 working days",
+          "express": "1–2 working days"
+        },
+        "luxurySurchargeRate": 0.08
+      },
+      {
+        "id": "ks-006",
+        "name": "The Belgravia Silk Tie",
+        "shortName": "Belgravia Tie",
+        "category": "Accessories",
+        "tags": [
+          "Archive",
+          "Limited"
+        ],
+        "price": 195,
+        "comparePrice": null,
+        "currency": "GBP",
+        "sku": "KS-AC-006-NV",
+        "rating": 4.8,
+        "reviewCount": 267,
+        "isBespokeOnly": false,
+        "isNew": false,
+        "inStock": true,
+        "description": "Woven from seven-fold pure silk on Como looms in Northern Italy. The Belgravia Tie \nis the definitive expression of understated British elegance.",
+        "longDescription": "The seven-fold construction — in which a single piece of silk is folded seven times \nwith no interlining — produces an unrivalled drape and a knot of unparalleled density. \nEach tie is printed with exclusive Kingsman archive patterns and finished by hand in our London studio.",
+        "images": {
+          "front": "https://images.unsplash.com/photo-1590798876053-8832aa0fb849?w=600&q=80",
+          "back": "https://images.unsplash.com/photo-1590798876053-8832aa0fb849?w=600&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590798876053-8832aa0fb849?w=800&q=80"
+          ]
+        },
+        "availableSizes": [
+          "One Size — 147cm"
+        ],
+        "colorVariants": [
+          {
+            "name": "Navy Regimental",
+            "hex": "#1a2744",
+            "available": true
+          },
+          {
+            "name": "Burgundy Paisley",
+            "hex": "#5c1a2a",
+            "available": true
+          },
+          {
+            "name": "Forest Green",
+            "hex": "#1a3a1a",
+            "available": true
+          },
+          {
+            "name": "Champagne",
+            "hex": "#d4b483",
+            "available": false
+          }
+        ],
+        "fabricComposition": {
+          "Material": "100% Pure Silk — Seven Fold",
+          "Construction": "No interlining — self-tipped",
+          "Width": "8.5cm blade width",
+          "Origin": "Como, Italy (woven) — London, UK (finished)"
+        },
+        "careInstructions": [
+          "Dry clean only",
+          "Roll, do not fold",
+          "Untie after each wear"
+        ],
+        "deliveryInfo": {
+          "standard": "3–5 working days",
+          "express": "1–2 working days"
+        },
+        "luxurySurchargeRate": 0.08
+      }
+    ]
+  },
+  "webedit-exportvar-414": {
+    "type": "ExportVariable",
+    "file": "src\\data\\products.js",
+    "identifier": "testimonials",
+    "value": [
+      {
+        "id": "t-001",
+        "name": "The Rt. Hon. James Blackwood",
+        "title": "Former Secretary of State",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&q=80",
+        "rating": 5,
+        "text": "Kingsman has dressed me for every significant occasion of my career. The Windsor suit I wore at the State Opening — impeccable in every regard. True Savile Row quality without the Savile Row wait.",
+        "product": "Windsor Double-Breasted Suit"
+      },
+      {
+        "id": "t-002",
+        "name": "Sir Alistair Pemberton",
+        "title": "Chairman, Pemberton Capital",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&q=80",
+        "rating": 5,
+        "text": "I have worn Kingsman for fifteen years. The Balmoral Morning Coat I commissioned for my son's wedding was, without question, the finest garment I have ever owned. Extraordinary craftsmanship.",
+        "product": "Balmoral Bespoke Morning Coat"
+      },
+      {
+        "id": "t-003",
+        "name": "Dr. Helena Ashworth",
+        "title": "Diplomat & Cultural Attaché",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=120&q=80",
+        "rating": 5,
+        "text": "The Oxford Cashmere Scarf is the most luxurious accessory I own. It travels with me everywhere. Kingsman understands that true luxury is about feel, not just appearance.",
+        "product": "Oxford Cashmere Scarf"
+      }
+    ]
+  },
+  "webedit-exportvar-415": {
+    "type": "ExportVariable",
+    "file": "src\\data\\products.js",
+    "identifier": "lookbookEntries",
+    "value": [
+      {
+        "id": "lb-001",
+        "title": "The Autumn Statesman",
+        "season": "Autumn / Winter 2025",
+        "image": "https://images.unsplash.com/photo-1614786269829-d24616faf56d?w=800&q=80",
+        "description": "Power dressing reimagined for the modern era. The Windsor suit paired with the Mayfair overcoat — a combination that commands every room.",
+        "tags": [
+          "Suits",
+          "Outerwear"
+        ]
+      },
+      {
+        "id": "lb-002",
+        "title": "The Country Estate",
+        "season": "Autumn / Winter 2025",
+        "image": "https://images.unsplash.com/photo-1610047803562-7260ebe516cd?w=800&q=80",
+        "description": "British countryside elegance. Harris Tweed, cashmere, and the quiet confidence of a man entirely at ease with his surroundings.",
+        "tags": [
+          "Outerwear",
+          "Accessories"
+        ]
+      },
+      {
+        "id": "lb-003",
+        "title": "Mayfair Evening",
+        "season": "Resort 2025",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+        "description": "The after-dark wardrobe. Where precision tailoring meets the languid pace of a Mayfair evening, and every gesture is a statement.",
+        "tags": [
+          "Suits",
+          "Bespoke"
+        ]
+      }
+    ]
+  },
+  "webedit-425": {
+    "type": "text",
+    "tagName": "p",
+    "value": "404"
+  },
+  "webedit-426": {
+    "type": "text",
+    "tagName": "h1",
+    "value": "Page Not Found"
+  },
+  "webedit-427": {
+    "type": "text",
+    "tagName": "p",
+    "value": "The page you are looking for may have moved, or does not exist. \n        Allow us to direct you back to the collection."
+  },
+  "not-found-home-link": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "Return to Kingsman"
+  },
+  "webedit-430": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Kingsman garments are cut to a traditional British standard. We recommend measuring over a \n      well-fitted shirt for the most accurate sizing. Our Master Fitters are available for a complimentary \n      video consultation Monday–Friday, 9am–5pm GMT."
+  },
+  "webedit-439": {
+    "type": "text",
+    "tagName": "p",
+    "value": "All measurements are body measurements. Add 1–1.5\" for ease of movement."
+  },
+  "webedit-441": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Every Kingsman bespoke commission begins with a consultation with one of our twelve Master Cutters, \n      each trained for a minimum of seven years on Savile Row. The process is meticulous, unhurried, and \n      entirely focused on you."
+  },
+  "webedit-453": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Delivery"
+  },
+  "webedit-456": {
+    "type": "text",
+    "tagName": "p",
+    "value": "All orders are fully insured and dispatched in Kingsman signature packaging. \n        Returns are accepted within 28 days of receipt in original, unworn condition.\n        Bespoke garments are non-returnable."
+  },
+  "webedit-467": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "Home"
+  },
+  "webedit-469": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "Collections"
+  },
+  "webedit-480": {
+    "type": "text",
+    "tagName": "span",
+    "value": "New Arrival"
+  },
+  "webedit-481": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Bespoke Only"
+  },
+  "webedit-495": {
+    "type": "text",
+    "tagName": "span",
+    "value": "reviews)"
+  },
+  "webedit-502": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Base price"
+  },
+  "webedit-505": {
+    "type": "text",
+    "tagName": "span",
+    "value": "%)"
+  },
+  "webedit-508": {
+    "type": "text",
+    "tagName": "span",
+    "value": "VAT (20%)"
+  },
+  "webedit-511": {
+    "type": "text",
+    "tagName": "span",
+    "value": "Total inc. VAT"
+  },
+  "webedit-518": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Colour:"
+  },
+  "size-guide-link": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Size Guide ↓"
+  },
+  "webedit-542": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Fabric Composition"
+  },
+  "webedit-557": {
+    "type": "text",
+    "tagName": "p",
+    "value": "All Details"
+  },
+  "webedit-567": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "You May Also Consider"
+  },
+  "related-view-all": {
+    "type": "text",
+    "tagName": "Link",
+    "value": "View All →"
+  },
+  "webedit-570": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "div",
+    "value": [
+      {
+        "id": "sizing",
+        "label": "Sizing Guide"
+      },
+      {
+        "id": "bespoke",
+        "label": "Bespoke Crafting"
+      },
+      {
+        "id": "shipping",
+        "label": "Shipping Matrix"
+      }
+    ],
+    "JSXExpression": "TABS"
+  },
+  "clear-filters": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Clear All Filters"
+  },
+  "webedit-574": {
+    "type": "text",
+    "tagName": "h3",
+    "value": "Category"
+  },
+  "webedit-583": {
+    "type": "text",
+    "tagName": "h3",
+    "value": "Collection"
+  },
+  "webedit-590": {
+    "type": "text",
+    "tagName": "h3",
+    "value": "Price Range"
+  },
+  "webedit-599": {
+    "type": "text",
+    "tagName": "p",
+    "value": "✦ The Collection"
+  },
+  "webedit-601": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Showing results for:"
+  },
+  "webedit-602": {
+    "type": "text",
+    "tagName": "span",
+    "value": "\""
+  },
+  "mobile-filter-toggle": {
+    "type": "text",
+    "tagName": "button",
+    "value": "Filters"
+  },
+  "webedit-621": {
+    "type": "text",
+    "tagName": "p",
+    "value": "No pieces found"
+  },
+  "webedit-622": {
+    "type": "text",
+    "tagName": "p",
+    "value": "Try adjusting your filters or"
+  },
+  "webedit-623": {
+    "type": "text",
+    "tagName": "button",
+    "value": "clear all"
+  },
+  "webedit-628": {
+    "type": "text",
+    "tagName": "h2",
+    "value": "Filters"
+  },
+  "webedit-631": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "div",
+    "value": [
+      {
+        "label": "Under £300",
+        "min": 0,
+        "max": 300
+      },
+      {
+        "label": "£300 – £1,000",
+        "min": 300,
+        "max": 1000
+      },
+      {
+        "label": "£1,000 – £5,000",
+        "min": 1000,
+        "max": 5000
+      },
+      {
+        "label": "Over £5,000",
+        "min": 5000
+      }
+    ],
+    "JSXExpression": "PRICE_RANGES"
+  },
+  "sort-select": {
+    "type": "collection",
+    "source": "JsonArrayExpression",
+    "tagName": "select",
+    "value": [
+      {
+        "label": "Featured",
+        "value": "featured"
+      },
+      {
+        "label": "Price: Low to High",
+        "value": "price-asc"
+      },
+      {
+        "label": "Price: High to Low",
+        "value": "price-desc"
+      },
+      {
+        "label": "Highest Rated",
+        "value": "rating"
+      },
+      {
+        "label": "Newest",
+        "value": "newest"
+      }
+    ],
+    "JSXExpression": "SORT_OPTIONS"
+  }
+}

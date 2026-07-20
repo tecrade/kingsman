@@ -1,0 +1,784 @@
+{
+  "ExportVariables": {
+    "src\\data\\products.js": {
+      "CATEGORIES": {
+        "type": "ArrayExpression",
+        "contentId": "webedit-exportvar-411"
+      },
+      "TAGS": {
+        "type": "ArrayExpression",
+        "contentId": "webedit-exportvar-412"
+      },
+      "products": {
+        "type": "ArrayExpression",
+        "contentId": "webedit-exportvar-413"
+      },
+      "testimonials": {
+        "type": "ArrayExpression",
+        "contentId": "webedit-exportvar-414"
+      },
+      "lookbookEntries": {
+        "type": "ArrayExpression",
+        "contentId": "webedit-exportvar-415"
+      }
+    }
+  },
+  "ImportVariables": {
+    "src\\App.jsx": {
+      "AppProvider": {
+        "importSource": "./context/AppContext"
+      },
+      "AnnouncementBanner": {
+        "importSource": "./components/layout/AnnouncementBanner"
+      },
+      "Navbar": {
+        "importSource": "./components/layout/Navbar"
+      },
+      "Footer": {
+        "importSource": "./components/layout/Footer"
+      },
+      "CartDrawer": {
+        "importSource": "./components/layout/CartDrawer"
+      },
+      "MobileNavDrawer": {
+        "importSource": "./components/layout/MobileNavDrawer"
+      },
+      "CheckoutModal": {
+        "importSource": "./components/layout/CheckoutModal"
+      },
+      "HomePage": {
+        "importSource": "./pages/HomePage"
+      },
+      "ShopPage": {
+        "importSource": "./pages/ShopPage"
+      },
+      "ProductDetailPage": {
+        "importSource": "./pages/ProductDetailPage"
+      },
+      "NotFoundPage": {
+        "importSource": "./pages/NotFoundPage"
+      }
+    },
+    "src\\components\\home\\LookbookSection.jsx": {
+      "lookbookEntries": {
+        "importSource": "../../data/products"
+      }
+    },
+    "src\\components\\home\\ProductCarousel.jsx": {
+      "ProductCard": {
+        "importSource": "../ui/ProductCard"
+      },
+      "products": {
+        "importSource": "../../data/products"
+      }
+    },
+    "src\\components\\home\\TestimonialsSection.jsx": {
+      "testimonials": {
+        "importSource": "../../data/products"
+      }
+    },
+    "src\\components\\layout\\AnnouncementBanner.jsx": {
+      "useApp": {
+        "importSource": "../../context/AppContext"
+      }
+    },
+    "src\\components\\layout\\CartDrawer.jsx": {
+      "useApp": {
+        "importSource": "../../context/AppContext"
+      }
+    },
+    "src\\components\\layout\\CheckoutModal.jsx": {
+      "useApp": {
+        "importSource": "../../context/AppContext"
+      }
+    },
+    "src\\components\\layout\\MobileNavDrawer.jsx": {
+      "useApp": {
+        "importSource": "../../context/AppContext"
+      }
+    },
+    "src\\components\\layout\\Navbar.jsx": {
+      "useApp": {
+        "importSource": "../../context/AppContext"
+      }
+    },
+    "src\\components\\ui\\ProductCard.jsx": {
+      "useApp": {
+        "importSource": "../../context/AppContext"
+      }
+    },
+    "src\\main.jsx": {
+      "App": {
+        "importSource": "./App.jsx"
+      }
+    },
+    "src\\pages\\HomePage.jsx": {
+      "HeroSection": {
+        "importSource": "../components/home/HeroSection"
+      },
+      "ProductCarousel": {
+        "importSource": "../components/home/ProductCarousel"
+      },
+      "LookbookSection": {
+        "importSource": "../components/home/LookbookSection"
+      },
+      "HeritageSection": {
+        "importSource": "../components/home/HeritageSection"
+      },
+      "TestimonialsSection": {
+        "importSource": "../components/home/TestimonialsSection"
+      }
+    },
+    "src\\pages\\ProductDetailPage.jsx": {
+      "products": {
+        "importSource": "../data/products"
+      },
+      "useApp": {
+        "importSource": "../context/AppContext"
+      },
+      "ProductCard": {
+        "importSource": "../components/ui/ProductCard"
+      }
+    },
+    "src\\pages\\ShopPage.jsx": {
+      "products": {
+        "importSource": "../data/products"
+      },
+      "CATEGORIES": {
+        "importSource": "../data/products"
+      },
+      "TAGS": {
+        "importSource": "../data/products"
+      },
+      "ProductCard": {
+        "importSource": "../components/ui/ProductCard"
+      },
+      "SkeletonCard": {
+        "importSource": "../components/ui/SkeletonCard"
+      }
+    }
+  },
+  "VariableRegistry": {
+    "src\\App.jsx": {
+      "pathname": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\home\\HeritageSection.jsx": {
+      "STATS": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "webedit-43"
+      }
+    },
+    "src\\components\\home\\HeroSection.jsx": {
+      "HERO_SLIDES": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "webedit-72"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "slide": {
+        "type": "MemberExpression",
+        "datatype": "const"
+      },
+      "timer": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "goToSlide": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\home\\LookbookSection.jsx": {
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\home\\ProductCarousel.jsx": {
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "dragStartX": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "VISIBLE": {
+        "type": "NumericLiteral",
+        "datatype": "const"
+      },
+      "maxIndex": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "prev": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "next": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "handleDragStart": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "handleDragEnd": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "endX": {
+        "type": "LogicalExpression",
+        "datatype": "const"
+      },
+      "delta": {
+        "type": "BinaryExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\home\\TestimonialsSection.jsx": {
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "active": {
+        "type": "MemberExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\layout\\AnnouncementBanner.jsx": {
+      "announcementVisible": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setAnnouncementVisible": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\layout\\CartDrawer.jsx": {
+      "formatCurrency": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "cartOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCartOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "cartItems": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "removeFromCart": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "updateQty": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "cartTotals": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutType": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\layout\\CheckoutModal.jsx": {
+      "formatCurrency": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "checkoutOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "checkoutType": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "cartItems": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "cartTotals": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "clearCart": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "handleInputChange": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "name": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "value": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "validateForm": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "tempErrors": {
+        "type": "ObjectExpression",
+        "datatype": "const"
+      },
+      "cardNumClean": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "selectedDate": {
+        "type": "NewExpression",
+        "datatype": "const"
+      },
+      "today": {
+        "type": "NewExpression",
+        "datatype": "const"
+      },
+      "handleSubmit": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "prefix": {
+        "type": "ConditionalExpression",
+        "datatype": "const"
+      },
+      "randomNum": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "handleClose": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "val": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "formatted": {
+        "type": "CallExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\layout\\Footer.jsx": {
+      "FOOTER_LINKS": {
+        "type": "ObjectExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\layout\\MobileNavDrawer.jsx": {
+      "MOBILE_LINKS": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "webedit-342"
+      },
+      "mobileNavOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setMobileNavOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\layout\\Navbar.jsx": {
+      "NAV_LINKS": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "webedit-365"
+      },
+      "cartCount": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCartOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setMobileNavOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutType": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "searchRef": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "navigate": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "handleScroll": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "handler": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "handleSearch": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "isConsultation": {
+        "type": "BinaryExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\components\\ui\\ProductCard.jsx": {
+      "formatCurrency": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "wishlist": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "toggleWishlist": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "addToCart": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "isWishlisted": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "isList": {
+        "type": "BinaryExpression",
+        "datatype": "const"
+      },
+      "handleQuickAdd": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "defaultSize": {
+        "type": "LogicalExpression",
+        "datatype": "const"
+      },
+      "defaultColor": {
+        "type": "LogicalExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\context\\AppContext.jsx": {
+      "AppContext": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "clearCart": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "addToCart": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "key": {
+        "type": "TemplateLiteral",
+        "datatype": "const"
+      },
+      "existing": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "removeFromCart": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "updateQty": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "toggleWishlist": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "cartTotals": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "subtotal": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "luxurySurcharge": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "vat": {
+        "type": "BinaryExpression",
+        "datatype": "const"
+      },
+      "total": {
+        "type": "BinaryExpression",
+        "datatype": "const"
+      },
+      "cartCount": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "value": {
+        "type": "ObjectExpression",
+        "datatype": "const"
+      },
+      "ctx": {
+        "type": "CallExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\data\\products.js": {
+      "CATEGORIES": {
+        "type": "ArrayExpression",
+        "datatype": "const"
+      },
+      "TAGS": {
+        "type": "ArrayExpression",
+        "datatype": "const"
+      },
+      "products": {
+        "type": "ArrayExpression",
+        "datatype": "const"
+      },
+      "testimonials": {
+        "type": "ArrayExpression",
+        "datatype": "const"
+      },
+      "lookbookEntries": {
+        "type": "ArrayExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\pages\\ProductDetailPage.jsx": {
+      "formatCurrency": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "SizingGuide": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "BespokeCrafting": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "ShippingMatrix": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "TABS": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "webedit-570"
+      },
+      "id": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "navigate": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "addToCart": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "wishlist": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "toggleWishlist": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutOpen": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "setCheckoutType": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "product": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "firstAvailable": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "isWishlisted": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "handleAddToCart": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "related": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "priceBreakdown": {
+        "type": "ObjectExpression",
+        "datatype": "const"
+      }
+    },
+    "src\\pages\\ShopPage.jsx": {
+      "PRICE_RANGES": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "webedit-631"
+      },
+      "SORT_OPTIONS": {
+        "type": "ArrayExpression",
+        "datatype": "const",
+        "contentId": "sort-select"
+      },
+      "undefined": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "category": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "tag": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "timer": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "filteredProducts": {
+        "type": "CallExpression",
+        "datatype": "const"
+      },
+      "result": {
+        "type": "ArrayExpression",
+        "datatype": "let"
+      },
+      "q": {
+        "type": "OptionalCallExpression",
+        "datatype": "const"
+      },
+      "min": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "max": {
+        "type": "ObjectPattern",
+        "datatype": "const"
+      },
+      "toggleCategory": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "toggleTag": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "clearAllFilters": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "hasFilters": {
+        "type": "LogicalExpression",
+        "datatype": "const"
+      },
+      "toggleFilterSection": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      },
+      "FilterPanel": {
+        "type": "ArrowFunctionExpression",
+        "datatype": "const"
+      }
+    }
+  },
+  "VariableLink": {
+    "src\\components\\home\\HeroSection.jsx": {
+      "slide": {
+        "parent": "HERO_SLIDES",
+        "type": "aliasing",
+        "scope": "local"
+      }
+    },
+    "src\\components\\home\\TestimonialsSection.jsx": {
+      "active": {
+        "parent": "testimonials",
+        "type": "aliasing",
+        "scope": "imported"
+      }
+    },
+    "src\\pages\\ShopPage.jsx": {
+      "min": {
+        "parent": "PRICE_RANGES",
+        "type": "aliasing",
+        "scope": "local"
+      },
+      "max": {
+        "parent": "PRICE_RANGES",
+        "type": "aliasing",
+        "scope": "local"
+      }
+    }
+  }
+}
